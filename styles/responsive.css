@@ -1,0 +1,24 @@
+/* Mobile device */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        gap: 30px;
+    }
+    header {
+        background: rgba(255, 144, 14, 0.1);
+        padding: 20px 10px 20px 10px;
+      }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        background: rgba(255, 144, 14, 0.1);
+        padding: 20px 10px 20px 10px;
+      }
+    nav {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+}

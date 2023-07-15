@@ -15,6 +15,7 @@
   text-align: center;
   font-size: 1.2rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* header styles */
@@ -40,7 +41,7 @@ nav li a {
   text-decoration: none;
   color: #424242;
   font-size: 1.1rem;
-  margin-left: 40px;
+  margin: 20px;
   font-weight: 500;
   line-height: 26px;
 }
@@ -68,4 +69,5 @@ nav li a {
 }
 .banner-section img {
     margin-top: 30px;
+    width: 100%;
 }
