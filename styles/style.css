@@ -17,6 +17,14 @@
   font-weight: 600;
   cursor: pointer;
 }
+.text-gray {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
 
 /* header styles */
 header {
@@ -55,13 +63,7 @@ nav li a {
   font-weight: 700;
   margin-bottom: 30px;
 }
-.banner-description {
-  color: #727272;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 30px;
-}
+
 .banner-content {
     text-align: center;
     max-width: 862px;
@@ -102,12 +104,4 @@ main {
 .teams-content-title .orange-features {
     color: #FF900E;
     font-weight: 700;
-}
-.teams-content p {
-    color:#727272;
-    font-weight: 400;
-    line-height: 26px; 
-    margin-top: 24px;
-    margin-bottom: 31px;
-
 }
