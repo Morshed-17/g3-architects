@@ -125,16 +125,24 @@ main {
   margin-top: 16px;
   margin-bottom: 0;
 }
+.feature-img img {
+  min-height: 80%;
+  margin-left: 30px;
+}
 .ten-years-badge {
   border-radius: 8px;
   background: #ff900e;
   color: #fff;
   width: 342px;
-  padding: 46px 40px;
+  padding: 46px 10px;
   text-align: center;
+  position: relative;
+  bottom: 130px;
+  right: 114px;
 }
 .ten-years-badge h2 {
   font-size: 4rem;
+  margin: 0;
 
 }
 .ten-years-badge p {
