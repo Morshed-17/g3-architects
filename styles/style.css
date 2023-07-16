@@ -108,7 +108,7 @@ main {
 .features {
   display: flex;
   gap: 145px;
-  margin: 130px 0;
+  margin-top: 130px;
 }
 .feature-content .card {
   border-radius: 8px;
