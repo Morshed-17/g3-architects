@@ -4,7 +4,7 @@
         font-size: 10px;
     }
     /* header start */
-    nav,.teams-container{
+    nav,.teams-container,.sponsors-img-container {
         flex-direction: column;
         gap: 30px;
     }
@@ -39,7 +39,9 @@
         background: rgba(255, 144, 14, 0.1);
         padding: 20px 10px 20px 10px;
       }
-    nav, .teams-container {
+    nav, 
+    .teams-container,
+    .sponsors-img-container {
         flex-direction: column;
         gap: 30px;
     }
