@@ -1,5 +1,8 @@
 /* Mobile device */
 @media screen and (max-width: 576px) {
+    *{
+        font-size: 10px;
+    }
     /* header start */
     nav,.teams-container{
         flex-direction: column;
