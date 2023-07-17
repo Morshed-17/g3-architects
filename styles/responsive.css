@@ -15,6 +15,9 @@
         background: rgba(255, 144, 14, 0.1);
         padding: 20px 10px 20px 10px;
       }
+      .banner-section {
+        margin-top: 20px;
+    }
       /* main start */
       /* teams section */
       .teams-img-container {
@@ -25,21 +28,38 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .teams-container {
+      padding: 0 0px;
+  }
     /* stats section */
     .facts-card-container {
         flex-direction: column;
         gap: 20px;
 
       }
+      .ten-years-badge {
+        position: relative;
+        padding: 20px;
+        width: 110px;
+        left: -10px;
+        bottom: 34px;
+    }
+      .ten-years-badge h2 {
+        font-size: 2rem;
+    }
       /* features section starts */
       .feature-img img {
         width: 100%;
         margin-left: 0;
       }
-      .ten-years-badge {
-        position: static;
-        max-width: 100%;
-      }
+      
+      .facts {
+        padding: 26px 20px;
+    }
+  /* sponsors section */
+  .sponsors-img-container img {
+    max-width: 33%;
+}
 
 }
 
